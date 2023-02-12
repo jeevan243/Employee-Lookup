@@ -1,0 +1,37 @@
+<h2>Emplyee Component</h2>
+<div class="employee-form">
+  <form action="" [formGroup]="employmentForm" (ngSubmit)="handleSubmit()">
+    <div>
+      <label for="">Name: </label>
+      <input type="text" id="name" formControlName="name" />
+    </div>
+    <br />
+    <div>
+      <label for="">Date of Birth: </label>
+      <input type="date" id="date" formControlName="date" />
+    </div>
+    <br />
+    <div>
+      <label for="">Place: </label>
+      <input type="text" id="place" formControlName="place" />
+    </div>
+    <br />
+    <div>
+      <label for="">Country: </label>
+      <input type="text" id="country" formControlName="country" />
+    </div>
+    <br />
+    <div>
+      <label for="">Email: </label>
+      <input type="email" id="email" formControlName="email" />
+    </div>
+    <br>
+    <div>
+      <label for="">Salary_id: </label>
+      <input type="number" id="salaryId" formControlName="salaryId" />
+    </div>
+    <div class="submit">
+      <button class="submit" type="submit">Submit</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,25 @@
+.nav-bar {
+    background-color: rgb(36, 12, 130);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .salary-employee {
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+  }
+  
+  .home,
+  .salary-employee {
+    margin-top: 10px;
+  }
+  
